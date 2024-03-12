@@ -1,4 +1,4 @@
-# Calculator
+# Find max number
 Write a function to find maximum number from an array
 
 
