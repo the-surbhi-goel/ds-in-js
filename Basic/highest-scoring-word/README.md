@@ -1,4 +1,4 @@
-# Remove Dupilcates
+# Highest Scoring word
 
 Write a function to find highest scoring word from a string.
 Each Letter of a word scores a point according to its position like a=1, b=2, c=3 etc
