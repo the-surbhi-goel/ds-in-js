@@ -15,7 +15,7 @@ function fibonacciNumber(num) {
 function fibonacciSeries(num) {
     for (let i = 0; i < num; i++) { 
         console.log(fibonacciNumber(i)); 
-    };
+    }
 }
 
 console.log("fibonacci-series for 10 numbers");
