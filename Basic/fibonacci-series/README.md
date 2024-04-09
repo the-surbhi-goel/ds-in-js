@@ -1,4 +1,4 @@
-# Fibonacci series
+# fibonacci series
 
 Write a function to write fibonacci series
 
@@ -33,23 +33,24 @@ fibonacciSeries(10); // prints 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 <summary>Click Here for solution </summary>
 
 ```
-function fibonacciNumber(num) {
-    if(num === 0){
+function fibonacciSeries(num) {
+    if(num == 1) {
+        console.log(0);
         return 0;
     }
-    else if(num === 1 || num === 2){
+    if(num == 2) {
+        console.log(0);
+        console.log(1);
         return 1;
     }
-    else {
-        const res = fibonacciNumber(num - 2) + fibonacciNumber(num - 1);
-        return res;
-    }
 
-}
+    num1 = 0;
+    num2 = 1;
 
-function fibonacciSeries(num) {
-    for (let i = 0; i < num; i++) { 
-        console.log(fibonacciNumber(i)); 
+    for (let i = 2; i < num; i++) { 
+        console.log(num1 + num2); 
+        num2 = num1 + num2;
+        num1 = num2 - num1;
     };
 }
 ```
