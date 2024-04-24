@@ -23,13 +23,15 @@ set(key, value) -> Add key/value pair
 
 get(key) -> Return the value associated with key
 
-remove(key) -> remove key/value pair
+delete(key) -> delete key/value pair
 
 has(key) -> check if that key exits
 
 keys() -> return array of all keys
 
 values() -> return array of all values
+
+size -> return the size of hash table
 ```
 
 </details>
