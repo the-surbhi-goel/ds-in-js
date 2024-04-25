@@ -10,7 +10,7 @@ A data structure that implements an associative array, also called a dictionary,
 ## Complexity
 
 The average time complexity for insertions, deletion is O(1).
-Space complexity is O(n) becausewe have tos tore all keys and values in the has table. The size of hash table is proportional to the number of keys and values.
+Space complexity is O(n) because we have to store all keys and values in the has table. The size of hash table is proportional to the number of keys and values.
 
 
 
