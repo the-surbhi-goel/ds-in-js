@@ -91,6 +91,30 @@ class HashTable {
         return false;
     }
 
+    keys() {
+        const arr = [];
+        for(let i = 0; i < this.storage.length; i++){
+            if(this.storage[i]){
+                for(const [key, value] of this.storage[i]){
+                    arr.push(key);
+                }
+            }
+        }
+        return arr;
+    }
+
+    values() {
+        const arr = [];
+        for(let i = 0; i < this.storage.length; i++){
+            if(this.storage[i]){
+                for(const [key, value] of this.storage[i]){
+                    arr.push(value);
+                }
+            }
+        }
+        return arr;
+    }
+
     clear() {
         this.storage = [];
     }
@@ -107,6 +131,14 @@ myHash.set("Rahul", '1003');
 myHash.set("Amar", '1004');
 console.log("\nAfter Insertion Hash Table myHash.print()");
 console.log(myHash.print());
+
+
+console.log("\n Getting All keys of hash-table");
+console.log(myHash.keys());
+
+
+console.log("\n Getting All values of hash-table");
+console.log(myHash.values());
 
 
 console.log("\n Getting key myHash.get('Rahul')");

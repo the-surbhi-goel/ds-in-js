@@ -27,6 +27,42 @@ You can create your own hash function
 ```
 
 
+## Key Function
+To get all keys of hash-table
+
+```
+    keys() {
+        const arr = [];
+        for(let i = 0; i < this.storage.length; i++){
+            if(this.storage[i]){
+                for(const [key, value] of this.storage[i]){
+                    arr.push(key);
+                }
+            }
+        }
+        return arr;
+    }
+```
+
+
+## Value Function
+To get all values of hash-table
+
+```
+    values() {
+        const arr = [];
+        for(let i = 0; i < this.storage.length; i++){
+            if(this.storage[i]){
+                for(const [key, value] of this.storage[i]){
+                    arr.push(value);
+                }
+            }
+        }
+        return arr;
+    }
+```
+
+
 ## Set key-value Function
 
 ```
