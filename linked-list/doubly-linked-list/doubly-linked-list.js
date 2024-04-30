@@ -179,4 +179,22 @@ export class DoublyLinkedList {
 
         }
     }
+
+    contains(data){
+        if(this.length === 0){
+            return false;
+        }
+
+        let currentNode = this.head;
+
+        while(currentNode){
+            if(currentNode.data === data) {
+                return true;
+            }
+
+            currentNode = currentNode.next;
+        }
+
+        return false;
+    }
 }

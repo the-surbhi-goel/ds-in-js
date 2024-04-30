@@ -43,3 +43,7 @@ dll.print();
 // console.log("\n Remove data at index 4 (Last Position)");
 // dll.removeAt(2);
 // dll.print();
+
+console.log("\nCheck element exist or not");
+console.log("Item 2 ", dll.contains(2));
+console.log("Item 20 ", dll.contains(20));
