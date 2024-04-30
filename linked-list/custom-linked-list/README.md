@@ -26,7 +26,7 @@ class LinkedLst {
 ## Add at the end of the linked list
 
 <p align="center">
-  <img src="../images/insertion-at-ending.png" width="350" title="Stack">
+  <img src="../images/insertion-at-ending.png" width="350" title="Linked List">
 </p>
 
 ```
@@ -47,7 +47,7 @@ class LinkedLst {
 ## Add at the start of the linked list
 
 <p align="center">
-  <img src="../images/insertion-at-beginning.png" width="350" title="Stack">
+  <img src="../images/insertion-at-beginning.png" width="350" title="Linked List">
 </p>
 
 ```
@@ -62,7 +62,7 @@ class LinkedLst {
 ## Add at the middle of the linked list
 
 <p align="center">
-  <img src="../images/insertion-at-middle.png" width="350" title="Stack">
+  <img src="../images/insertion-at-middle.png" width="350" title="Linked List">
 </p>
 
 ```

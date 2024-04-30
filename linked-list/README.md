@@ -4,7 +4,7 @@ A linked-list is a linear data structure similar to an array. But in linked-list
 
 
 <p align="center">
-  <img src="./images/linked-list.png" width="350" title="Stack">
+  <img src="./images/linked-list.png" width="350" title="Linked-list">
 </p>
 
 
