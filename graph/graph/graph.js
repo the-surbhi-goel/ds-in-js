@@ -6,7 +6,7 @@
 //     'D': ['B', 'C']
 // }
 
-class Graph {
+export class Graph {
     constructor(){
         this.adjList = {};
     }
@@ -50,22 +50,23 @@ class Graph {
 //     / \
 //    B - C
 
-const graph = new Graph();
+// Uncommented it to run
+// const graph = new Graph();
 
-graph.addVertex('A');
-graph.addVertex('B');
-graph.addVertex('C');
+// graph.addVertex('A');
+// graph.addVertex('B');
+// graph.addVertex('C');
 
-graph.addEdge('A', 'B');
-graph.addEdge('A', 'C');
-graph.addEdge('B', 'C');
+// graph.addEdge('A', 'B');
+// graph.addEdge('A', 'C');
+// graph.addEdge('B', 'C');
 
-graph.print();
+// graph.print();
 
-console.log("\nRemove Edge between A and B");
-graph.removeEdge('A', 'B');
-graph.print();
+// console.log("\nRemove Edge between A and B");
+// graph.removeEdge('A', 'B');
+// graph.print();
 
-console.log("\nRemove Vertex A");
-graph.removeVertex('A');
-graph.print();
+// console.log("\nRemove Vertex A");
+// graph.removeVertex('A');
+// graph.print();
